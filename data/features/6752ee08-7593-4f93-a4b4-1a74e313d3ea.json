@@ -1,0 +1,21 @@
+{
+  "episode_id": "6752ee08-7593-4f93-a4b4-1a74e313d3ea",
+  "emotion_labels": [
+    "neutral",
+    "sadness",
+    "disgust",
+    "anger",
+    "surprise",
+    "fear",
+    "joy"
+  ],
+  "mean_profile": {
+    "neutral": 0.702237069606781,
+    "sadness": 0.16262927651405334,
+    "disgust": 0.07255629450082779,
+    "anger": 0.03368481993675232,
+    "surprise": 0.016447987407445908,
+    "fear": 0.008661704137921333,
+    "joy": 0.0037827787455171347
+  }
+}

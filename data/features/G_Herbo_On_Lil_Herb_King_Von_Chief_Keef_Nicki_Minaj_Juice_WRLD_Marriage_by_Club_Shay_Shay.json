@@ -1,0 +1,21 @@
+{
+  "episode_id": "G_Herbo_On_Lil_Herb_King_Von_Chief_Keef_Nicki_Minaj_Juice_WRLD_Marriage_by_Club_Shay_Shay",
+  "emotion_labels": [
+    "joy",
+    "neutral",
+    "surprise",
+    "sadness",
+    "anger",
+    "fear",
+    "disgust"
+  ],
+  "mean_profile": {
+    "joy": 0.5846678614616394,
+    "neutral": 0.19078125059604645,
+    "surprise": 0.10427139699459076,
+    "sadness": 0.05828084424138069,
+    "anger": 0.032703764736652374,
+    "fear": 0.01921939104795456,
+    "disgust": 0.010075618512928486
+  }
+}

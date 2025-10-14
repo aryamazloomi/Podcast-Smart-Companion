@@ -1,0 +1,21 @@
+{
+  "episode_id": "G_Herbo_On_Lil_Herb_King_Von_Chief_Keef_Nicki_Minaj_Juice_WRLD_Marriage",
+  "emotion_labels": [
+    "joy",
+    "neutral",
+    "surprise",
+    "sadness",
+    "anger",
+    "fear",
+    "disgust"
+  ],
+  "mean_profile": {
+    "joy": 0.5840176939964294,
+    "neutral": 0.19077108800411224,
+    "surprise": 0.1048634722828865,
+    "sadness": 0.05843072384595871,
+    "anger": 0.03287075459957123,
+    "fear": 0.019137920811772346,
+    "disgust": 0.009908569045364857
+  }
+}
