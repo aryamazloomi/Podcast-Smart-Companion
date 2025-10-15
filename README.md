@@ -96,7 +96,9 @@ Audio/YouTube -> Whisper (Transcription)
 
 app/
  ├── main.py                   # Streamlit entrypoint
+ 
  ├── pipeline/
+ 
  │   ├── ingest.py             # YouTube/local audio ingestion
  │   ├── transcribe.py         # Faster-Whisper ASR
  │   ├── chunker.py            # Sentence splitting + chunk creation
