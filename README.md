@@ -92,32 +92,6 @@ Audio/YouTube -> Whisper (Transcription)
              -> Chroma + SQLite Storage
              -> Streamlit UI + Recommendations
 
-## Project Structure
-
-app/
- ├── main.py                   # Streamlit entrypoint
- 
- ├── pipeline/
- 
- │   ├── ingest.py             # YouTube/local audio ingestion
- │   ├── transcribe.py         # Faster-Whisper ASR
- │   ├── chunker.py            # Sentence splitting + chunk creation
- │   ├── embedder.py           # Sentence embeddings + Chroma indexing
- │   ├── summarize.py          # Summarization (map-reduce)
- │   ├── emotion.py            # Emotion analysis
- │   ├── keywords.py           # Keyword extraction
- │   ├── cluster.py            # Topic clustering
- │   └── recommend.py          # Hybrid recommender
- ├── storage/
-     └── db.py (optional)
-
-data/
- ├── audio/                    # Stored audio files
- ├── transcripts/              # Whisper output JSON
- ├── chunks/                   # Chunked text (Parquet)
- ├── summaries/                # TL;DR + bullets
- └── features/                 # Emotion, keywords, topics
-
 
 ## Model Sources (Hugging Face)
 
